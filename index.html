@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Social Media DASHBOARD</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="script.js" defer></script>
+  </head>
+  <body class="dark-theme">
+    <div class="accent-background">
+      <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+          <div class="header__left">
+            <h3 class="header__text">Social Media Dashboard</h3>
+            <p class="header__subtext">Total Followers: 23, 004</p>
+          </div>
+          <div class="header__right">
+            <h5 class="toggle-text">Dark Mode</h5>
+            <!-- TOGGLE BTN -->
+            <!-- <span class="toggle-btn"
+              ><input type="range" min="1" max="2" class="toggle"
+            /></span> -->
+
+            <label for="switch" class="switch">
+              <div class="switch-div">
+                <input type="checkbox" class="switch" id="switch" />
+                <span class="slider"></span>
+              </div>
+            </label>
+          </div>
+        </header>
+        <!-- MAIN -->
+        <main>
+          <div class="main-section">
+            <!-- Facebook Card -->
+            <div class="card" id="fb-card">
+              <span class="card__top"
+                ><img
+                  src="./images/icon-facebook.svg"
+                  alt=""
+                  class="card__icon"
+                />
+                <p class="card__user">@nohjpatiu</p></span
+              >
+
+              <h2 class="card__text">1987</h2>
+              <h6 class="card__subtext">followers</h6>
+              <p class="card__today-count__plus">12 Today</p>
+            </div>
+            <!-- Twitter Card -->
+            <div class="card" id="tw-card">
+              <span class="card__top"
+                ><img
+                  src="./images/icon-twitter.svg"
+                  alt=""
+                  class="card__icon"
+                />
+                <p class="card__user">@nohjpatiu_</p></span
+              >
+
+              <h2 class="card__text">1044</h2>
+              <h6 class="card__subtext">followers</h6>
+              <p class="card__today-count__plus">99 Today</p>
+            </div>
+            <!--  Instagram Card -->
+            <div class="card" id="ig-card">
+              <span class="card__top">
+                <img
+                  src="./images/icon-instagram.svg"
+                  alt=""
+                  class="card__icon"
+                />
+                <p class="card__user">@nohjgram</p>
+              </span>
+
+              <h2 class="card__text">11k</h2>
+              <h6 class="card__subtext">followers</h6>
+              <p class="card__today-count__plus">1099 Today</p>
+            </div>
+            <!--  Youtube Card -->
+            <div class="card" id="yt-card">
+              <span class="card__top"
+                ><img
+                  src="./images/icon-youtube.svg"
+                  alt=""
+                  class="card__icon"
+                />
+                <p class="card__user">myChannel</p></span
+              >
+
+              <h2 class="card__text">8239</h2>
+              <h6 class="card__subtext">subscribers</h6>
+              <p class="card__today-count__minus">144 Today</p>
+            </div>
+          </div>
+          <!-- OVERVIEW  -->
+          <div class="overview-section">
+            <div class="overview__title">Overview - Today</div>
+            <div class="grid-container">
+              <!-- Overview Card 1 -->
+              <div class="overview__card">
+                <div class="overview__left">
+                  <p class="overview__left-text">Page Views</p>
+                  <h4 class="overview__left-count">87</h4>
+                </div>
+                <div class="overview__right">
+                  <img
+                    src="./images/icon-facebook.svg"
+                    alt=""
+                    class="card__icon overview__right-icon"
+                  />
+                  <p class="card__today-count__plus overview__right-count">
+                    3%
+                  </p>
+                </div>
+              </div>
+              <!-- Overview Card 2 -->
+              <div class="overview__card">
+                <div class="overview__left">
+                  <p class="overview__left-text">Likes</p>
+                  <h4 class="overview__left-count">52</h4>
+                </div>
+                <div class="overview__right">
+                  <img
+                    src="./images/icon-facebook.svg"
+                    alt=""
+                    class="card__icon overview__right-icon"
+                  />
+                  <p class="card__today-count__minus overview__right-count">
+                    2%
+                  </p>
+                </div>
+              </div>
+              <!-- Overview Card 3 -->
+              <div class="overview__card">
+                <div class="overview__left">
+                  <p class="overview__left-text">Likes</p>
+                  <h4 class="overview__left-count">5462</h4>
+                </div>
+                <div class="overview__right">
+                  <img
+                    src="./images/icon-instagram.svg"
+                    alt=""
+                    class="card__icon overview__right-icon"
+                  />
+                  <p class="card__today-count__plus overview__right-count">
+                    2257%
+                  </p>
+                </div>
+              </div>
+              <!-- Overview Card 4 -->
+              <div class="overview__card">
+                <div class="overview__left">
+                  <p class="overview__left-text">Profile Views</p>
+                  <h4 class="overview__left-count">52k</h4>
+                </div>
+                <div class="overview__right">
+                  <img
+                    src="./images/icon-instagram.svg"
+                    alt=""
+                    class="card__icon overview__right-icon"
+                  />
+                  <p class="card__today-count__plus overview__right-count">
+                    1375%
+                  </p>
+                </div>
+              </div>
+              <!-- Overview Card 5 -->
+              <div class="overview__card">
+                <div class="overview__left">
+                  <p class="overview__left-text">Retweets</p>
+                  <h4 class="overview__left-count">117</h4>
+                </div>
+                <div class="overview__right">
+                  <img
+                    src="./images/icon-twitter.svg"
+                    alt=""
+                    class="card__icon overview__right-icon"
+                  />
+                  <p class="card__today-count__plus overview__right-count">
+                    303%
+                  </p>
+                </div>
+              </div>
+              <!-- Overview Card 6 -->
+              <div class="overview__card">
+                <div class="overview__left">
+                  <p class="overview__left-text">Likes</p>
+                  <h4 class="overview__left-count">507</h4>
+                </div>
+                <div class="overview__right">
+                  <img
+                    src="./images/icon-twitter.svg"
+                    alt=""
+                    class="card__icon overview__right-icon"
+                  />
+                  <p class="card__today-count__plus overview__right-count">
+                    553%
+                  </p>
+                </div>
+              </div>
+              <!-- Overview Card 7 -->
+              <div class="overview__card">
+                <div class="overview__left">
+                  <p class="overview__left-text">Likes</p>
+                  <h4 class="overview__left-count">107</h4>
+                </div>
+                <div class="overview__right">
+                  <img
+                    src="./images/icon-youtube.svg"
+                    alt=""
+                    class="card__icon overview__right-icon"
+                  />
+                  <p class="card__today-count__minus overview__right-count">
+                    19%
+                  </p>
+                </div>
+              </div>
+              <!-- Overview Card 8 -->
+              <div class="overview__card">
+                <div class="overview__left">
+                  <p class="overview__left-text">Total Views</p>
+                  <h4 class="overview__left-count">1407</h4>
+                </div>
+                <div class="overview__right">
+                  <img
+                    src="./images/icon-youtube.svg"
+                    alt=""
+                    class="card__icon overview__right-icon"
+                  />
+                  <p class="card__today-count__minus overview__right-count">
+                    12%
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Jhon Patiu</a>
+      </div>
+    </div>
+  </body>
+</html>
